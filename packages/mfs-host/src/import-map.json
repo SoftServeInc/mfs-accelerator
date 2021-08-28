@@ -1,0 +1,22 @@
+{
+  "imports": {
+    "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js",
+    "react": "https://cdn.jsdelivr.net/npm/react@16.13.1/umd/react.production.min.js",
+    "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@16.13.1/umd/react-dom.production.min.js",
+    "@mfs/dashboard": "http://localhost:8889/mfs-dashboard.js",
+    "@mfs/root-config": "http://localhost:9000/mfs-root-config.js",
+    "@mfs/i18n": "http://localhost:8081/mfs-i18n.js",
+    "@mfs/i18n/": "http://localhost:8081/mfs-i18n/",
+    "@mfs/ui-library": "http://localhost:8883/mfs-ui-library.js",
+    "@mfs/ui-library/": "http://localhost:8883/mfs-ui-library/",
+    "styled-components": "https://cdnjs.cloudflare.com/ajax/libs/styled-components/5.2.1/styled-components.min.js",
+    "react-is": "https://cdnjs.cloudflare.com/ajax/libs/react-is/17.0.1/umd/react-is.production.min.js",
+    "react-redux": "https://cdnjs.cloudflare.com/ajax/libs/react-redux/7.2.2/react-redux.min.js",
+    "redux": "https://cdnjs.cloudflare.com/ajax/libs/redux/4.0.5/redux.min.js",
+    "ag-grid-community": "https://cdn.jsdelivr.net/npm/ag-grid-community@25.1.0/dist/ag-grid-community.js",
+    "ag-grid-react": "https://cdn.jsdelivr.net/npm/ag-grid-react@25.1.0/bundles/ag-grid-react.min.js",
+    "prop-types": "https://unpkg.com/prop-types@15.7.2/prop-types.min.js",
+    "react-dom/server": "https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.1/umd/react-dom.production.min.js",
+    "@material-ui/core": "https://unpkg.com/@material-ui/core@latest/umd/material-ui.development.js"
+  }
+}
