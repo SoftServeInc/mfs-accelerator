@@ -6,7 +6,7 @@
 Vladyslav Bezruchko
 Volodymyr Fedak
 
-
+## Intro
 Intention: show how micro frontends can be organized via monorepo yarn workspaces.
 
 In the example following cases was covered: 
