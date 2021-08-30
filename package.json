@@ -1,0 +1,26 @@
+{
+  "name": "mfsaccelerator",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start-host-app": "yarn workspace @mfs/host start",
+    "start-services": "concurrently \"yarn workspace @mfs/dashboard start\" \"yarn workspace @mfs/i18n start\" \"yarn workspace @mfs/ui-library start\" \"yarn workspace @mfs/rest-api start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoftServeInc/mfs-accelerator.git"
+  },
+  "author": "Vladyslav Bezruchko, Ivan Vynnyk, Volodymyr Fedak",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/SoftServeInc/mfs-accelerator/issues"
+  },
+  "homepage": "https://github.com/SoftServeInc/mfs-accelerator#readme",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "concurrently": "^6.2.1"
+  }
+}
