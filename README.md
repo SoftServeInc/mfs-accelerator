@@ -1,5 +1,12 @@
 # Sample project Micro frontends in monorepo
 
+## Authors
+### Honorable author: Ivan Vynnyk
+### Contributors: 
+Vladyslav Bezruchko
+Volodymyr Fedak
+
+
 Intention: show how micro frontends can be organized via monorepo yarn workspaces.
 
 In the example following cases was covered: 
