@@ -23,6 +23,11 @@ In the example following cases was covered:
 
 It's possible to run as many applications locally as you want.
 
+If You don't have Yarn - intall it 
+```sh
+npm install --global yarn
+```
+
 1. Clone the monorepo
 
 ```sh
