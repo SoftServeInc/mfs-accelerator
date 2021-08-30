@@ -1,9 +1,10 @@
 # Sample project Micro frontends in monorepo
 
 ## Authors
-### Honorable author: Ivan Vynnyk
+### Honorable author: 
+Ivan Vynnyk
 ### Contributors: 
-Vladyslav Bezruchko
+Vladyslav Bezruchko, 
 Volodymyr Fedak
 
 ## Intro
