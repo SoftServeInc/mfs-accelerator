@@ -28,10 +28,6 @@ export class UsersService {
     return this.users.filter( (x)=>{ return x.name == name } )
   }
 
-  // update(id: string, createUserDto: CreateUserDto) {
-  //   return `This action updates a #${id} user`;
-  // }
-
   remove(name: string) {
     this.users = this.users.filter(x=> x.name != name);
     return `This action removes a #${name} user`;

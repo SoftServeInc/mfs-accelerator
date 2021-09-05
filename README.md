@@ -18,6 +18,17 @@ In the example following cases was covered:
 5. Demo application is a PWA application which supports offline mode for users service.
 6. Backend REST API is implemented via Nestjs. Users are stored in memory. 
 
+The key point here is that over the time WEB-UI teams should have resilient and framework agnostic Web-UI app. In our terms framework agnostic means having possibility to extend web app with a necessary framework. On the provided sample  SingleSPA has been used as a shell (wrapper) for micro frontends based on Angular/React/Vue. Each micro frontend is a stand-alone SPA that knows how to bootstrap, mount, and unmount itself from the DOM using Single SPA tooling. That is the only thing which couples your micro frontend to a wrapper (Single SPA ). 
+
+Another feature of the provided sample is to have easy ability to write reusable shared UI components using any JS library/framework. It might be achieved by wrapping them with webcomponents (a suite of different technologies allowing you to create reusable custom elements — with their functionality encapsulated away from the rest of code via browser API). https://developer.mozilla.org/en-US/docs/Web/Web_Components  
+
+For i18next is used which supports all popular frameworks. 
+
+Please see diagram which represents described above solution:
+
+<p>
+  <img widht="600" alt="mfs-solution" src="https://github.com/SoftServeInc/mfs-accelerator/blob/master/mfs-setup.png?raw=true" />
+</p>
 
 ## Getting started
 
