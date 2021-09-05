@@ -219,7 +219,7 @@
     Learn more about why at https://single-spa.js.org/docs/ecosystem-angular/#zonejs
   -->
       <!-- <script src="https://cdn.jsdelivr.net/npm/zone.js@0.11.3/dist/zone.min.js"></script> -->
-
+      <script src="https://unpkg.com/zone.js"></script> 
       <script src="https://cdn.jsdelivr.net/npm/import-map-overrides@2.2.0/dist/import-map-overrides.js"></script>
       <% if (isLocal) { %>
         <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/system.js"></script>
@@ -240,10 +240,10 @@
 
                     <ul class="nav-links">
                       <li>
-                        <a href="/home" onclick="singleSpaNavigate(event)">Home</a>
+                        <a href="/angular" onclick="singleSpaNavigate(event)">Angular</a>
                       </li>
                       <li>
-                        <a href="/dashboard" onclick="singleSpaNavigate(event)">Users</a>
+                        <a href="/dashboard" onclick="singleSpaNavigate(event)">Dashboard</a>
                       </li>
                     </ul>
                   </div>
@@ -251,8 +251,8 @@
                   <route path="dashboard">
                     <application name="@mfs/dashboard" props="apiServiceUrl, events"></application>
                   </route>
-                  <route path="home">
-                    <application name="@mfs/home"></application>
+                  <route path="angular">
+                    <application name="@mfs/angular"></application>
                   </route>
                   <redirect from="/" to="/dashboard" />
 

@@ -9,6 +9,7 @@
     "@mfs/i18n/": "http://localhost:8081/mfs-i18n/",
     "@mfs/ui-library": "http://localhost:8883/mfs-ui-library.js",
     "@mfs/ui-library/": "http://localhost:8883/mfs-ui-library/",
+    "@mfs/angular": "http://localhost:8134/main.js",
     "styled-components": "https://cdnjs.cloudflare.com/ajax/libs/styled-components/5.2.1/styled-components.min.js",
     "react-is": "https://cdnjs.cloudflare.com/ajax/libs/react-is/17.0.1/umd/react-is.production.min.js",
     "react-redux": "https://cdnjs.cloudflare.com/ajax/libs/react-redux/7.2.2/react-redux.min.js",
