@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start-host-app": "yarn workspace @mfs/host start",
-    "start-services": "concurrently \"yarn workspace @mfs/dashboard start\" \"yarn workspace @mfs/i18n start\" \"yarn workspace @mfs/ui-library start\" \"yarn workspace @mfs/rest-api start\""
+    "start-services": "concurrently \"yarn workspace @mfs/dashboard start\" \"yarn workspace @mfs/i18n start\" \"yarn workspace @mfs/ui-library start\" \"yarn workspace @mfs/rest-api start\" \"yarn workspace @mfs/angular serve:single-spa:mfs-angular\" "
   },
   "repository": {
     "type": "git",
