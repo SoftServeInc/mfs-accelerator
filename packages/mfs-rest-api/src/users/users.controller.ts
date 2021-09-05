@@ -22,11 +22,6 @@ export class UsersController {
     return this.usersService.findOne(id);
   }
 
-  // @Put(':id')
-  // update(@Param('id') id: string, @Body() createUserDto: CreateUserDto) {
-  //   return this.usersService.update(id, createUserDto);
-  // }
-
   @Delete(':id')
   remove(@Param('id') id: string) {
     return this.usersService.remove(id);

@@ -27,7 +27,7 @@ For i18next is used which supports all popular frameworks.
 Please see diagram which represents described above solution:
 
 <p>
-  <img width="600px" src="./mfs-setup" />
+  ![alt text](https://github.com/SoftServeInc/mfs-accelerator/blob/mfs-example/mfs-setup.png?raw=true)
 </p>
 
 ## Getting started
